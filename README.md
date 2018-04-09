@@ -7,7 +7,7 @@ When people visit my company's site http://netccentric.com/contact-us/, it auto-
 
 ![Step01](https://raw.githubusercontent.com/simmatrix/wordpress-hacking-attempts/master/images/01.png)
 
-Next is to search through the server log file `/var/log/httpd/<your-site-name>` with the distinct keyword `gofitobishba`. It is very clear that everything started at April 03, 2018.
+Stop the page from loading before it get redirected away, check the browser console, next is to search through the server log file `/var/log/httpd/<your-site-name>` with the distinct keyword `gofitobishba` that you got from the browser console. It is very clear that everything started at April 03, 2018.
 
 ```
 118.189.155.99 - - [03/Apr/2018:18:13:06 +0800] "GET /?gofitobishba=e1e05da3 HTTP/1.1" 302 - "http://netccentric.com/career-available-positions/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
